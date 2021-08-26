@@ -1,16 +1,42 @@
+/* Header part */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #f1f1f1;
+  justify-content: space-between;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+  padding: 30px;
+}
+
 header {
   /* background-color: #666; */
-  padding: 30px;
-  text-align: center;
+  /* padding: 30px; */
+  /* padding-left: 0px; */
+  /* text-align: center; */
   font-size: 40px;
   color: black;
 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    border-radius: 8px;
+    /* object-fit: contain; */
+}
+
+/* Content parts */
+
 section {
   display: -webkit-flex;
   display: flex;
-
 }
 
 article {
@@ -18,7 +44,17 @@ article {
   -ms-flex: 3;
   flex: 3;
   background-color: #f1f1f1;
-  padding: 10px;
-  width: 60%;
+  padding: 30px;
+  padding-top:0;
   justify-content: center;
+}
+
+
+
+/* Whole page content */
+
+.content {
+  max-width: 1024px;
+  margin: auto;
+  font-size: 20px;
 }
