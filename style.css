@@ -2,7 +2,7 @@
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  background-color: #F6BE9A;
+  background-color: #DED5CE;
   justify-content: space-between;
 
 }
@@ -14,9 +14,11 @@
 }
 
 header {
-  font-size: 40px;
-  color: black;
-
+  font-size: 46px;
+  color: #251E18;
+  font-family: "Ubuntu";
+  padding:0;
+  margin:0;
 }
 
 img {
@@ -28,7 +30,7 @@ img {
 }
 
 i.fab, i.fas {
-  color: #493843;
+  color: #251E18;
 
 }
 
@@ -43,7 +45,7 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #FAF4D3;
+  background-color: #FAF5E4;
   padding: 30px;
   padding-top:0;
   justify-content: center;
@@ -53,15 +55,16 @@ article {
 
 /* Whole page content */
 
-body {background-color: #004643;}
+body {background-color: #F8B400;}
 
 .content {
   max-width: 1024px;
   margin: auto;
   font-size: 20px;
-  color: #0C1618;
+  color: #251E18;
+  font-family: "Ubuntu"
 }
 
 a {
-  color:#493843;
+  color:#4A3E30;
 }
