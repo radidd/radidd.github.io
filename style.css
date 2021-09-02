@@ -121,9 +121,6 @@ article {
 
 /* Whole page content */
 
-* {
-  box-sizing: border-box;
-}
 
 body {background-color: #F8B400;}
 
@@ -137,4 +134,11 @@ body {background-color: #F8B400;}
 
 a {
   color:#4A3E30;
+}
+
+html,body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
 }
