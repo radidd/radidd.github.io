@@ -1,20 +1,4 @@
 /* Header part */
-/* .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #DED5CE;
-  justify-content: space-between;
-
-}
-
-.flex-container > div {
-  padding: 30px;
-    background-color: red;
-}
-.flex-container > div > header{
-  flex: 100%;
-
-} */
 
 .grid-container {
   display: grid;
@@ -101,15 +85,6 @@ i.fab, i.fas {
 
 }
 
-/* @media screen and (max-width: 700px) {
-  .flex-container {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .flex-container > div {
-    padding: 30px;
-  }
-} */
 
 /* Content parts */
 
