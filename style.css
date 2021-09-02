@@ -49,7 +49,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
   .item1 {
     grid-column: 1 ;
