@@ -105,6 +105,7 @@ i.fab, i.fas {
 section {
   display: -webkit-flex;
   display: flex;
+  margin-bottom:0;
 }
 
 article {
@@ -115,8 +116,16 @@ article {
   padding: 30px;
   padding-top:0;
   justify-content: center;
+    margin-bottom:0;
 }
 
+footer {
+  font-style: italic;
+  text-align: right;
+  background-color: #FAF5E4;
+  padding:3px;
+  padding-right: 30px;
+}
 
 /* Whole page content */
 
