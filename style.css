@@ -84,23 +84,15 @@
       max-height: 40vh;
   }
 
+  header {
+    font-size: 36px;
+    color: #251E18;
+    font-family: "Ubuntu";
+  }
+
 }
 
-header {
-  font-size: 46px;
-  color: #251E18;
-  font-family: "Ubuntu";
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    border-radius: 8px;
-    /* object-fit: contain; */
-    float:right;
-    max-height: 40vh;
-}
 
 i.fab, i.fas {
   color: #251E18;
@@ -138,6 +130,22 @@ body {background-color: #F8B400;}
     font-size: 20px;
     color: #251E18;
     font-family: "Ubuntu"
+  }
+
+  header {
+    font-size: 46px;
+    color: #251E18;
+    font-family: "Ubuntu";
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      width: auto\9; /* ie8 */
+      border-radius: 8px;
+      /* object-fit: contain; */
+      float:right;
+      max-height: 60vh;
   }
 }
 
