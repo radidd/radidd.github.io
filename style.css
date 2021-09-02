@@ -18,9 +18,9 @@
 
 .grid-container {
   display: grid;
-  grid-gap: 10px;
   background-color: #DED5CE;
   padding: 10px;
+  grid-template-rows: auto 1fr;
 }
 
 .grid-item {
@@ -32,6 +32,8 @@
 .item1 {
   grid-column: 1 ;
   grid-row: 1;
+  padding-bottom:0px;
+  margin-bottom:0px;
 }
 
 .item2 {
@@ -43,7 +45,7 @@
 .item3 {
   grid-column: 1;
   grid-row: 2;
-  align-self: end;
+  align-self:flex-start;
 }
 
 
@@ -66,6 +68,15 @@
     grid-column: 1;
     grid-row: 3;
 
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+      width: auto\9; /* ie8 */
+      border-radius: 8px;
+      /* object-fit: contain; */
+      float:right;
+      max-height: 50vh;
   }
 
 }
@@ -135,10 +146,3 @@ body {background-color: #F8B400;}
 a {
   color:#4A3E30;
 }
-
-/* html,body {
-  text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-} */
